@@ -1,0 +1,102 @@
+ID,Name,Ticker,Industry,Risk Level,Price,Type
+1,Tech Corp,TECH,Technology,Medium,150,STOCK
+2,Health Inc,HLTH,Healthcare,Low,200,STOCK
+3,Bank Holdings,BANK,Finance,Low,120,STOCK
+4,Energy Co,ENRG,Energy,Medium,180,STOCK
+5,Retail Group,RTL,Retail,High,130,STOCK
+6,Green Power,GRNP,Energy,Low,90,STOCK
+7,Cloud Tech,CLDT,Technology,Medium,210,STOCK
+8,Pharma Plus,PHRM,Healthcare,Low,250,STOCK
+9,BankSecure,BKSC,Finance,Low,140,STOCK
+10,Urban Retail,URTL,Retail,High,160,STOCK
+11,Solar Future,SLRF,Energy,Medium,190,STOCK
+12,AI Innovators,AII,Technology,High,300,STOCK
+13,MediCare,MDCR,Healthcare,Low,220,STOCK
+14,CreditSafe,CRDS,Finance,Low,150,STOCK
+15,Shop Easy,SHPE,Retail,High,170,STOCK
+16,Wind Works,WIND,Energy,Medium,100,STOCK
+17,Quantum Tech,QNTM,Technology,High,400,STOCK
+18,Health Advance,HADV,Healthcare,Low,240,STOCK
+19,Trust Bank,TRST,Finance,Low,130,STOCK
+20,Mall World,MLWL,Retail,High,140,STOCK
+21,Power Grid,PWRG,Energy,Medium,190,STOCK
+22,NextGen Tech,NXTG,Technology,High,350,STOCK
+23,Wellness Co,WLNC,Healthcare,Low,210,STOCK
+24,Safe Invest,SFIN,Finance,Low,160,STOCK
+25,Fashion Hub,FSHN,Retail,High,180,STOCK
+26,BioRenew,BRNV,Healthcare,Low,110,STOCK
+27,Smart Systems,SMRT,Technology,High,330,STOCK
+28,LifeLine,LFLN,Healthcare,Low,250,STOCK
+29,CapitalOne,CPTL,Finance,Low,170,STOCK
+30,Retail First,RTL1,Retail,High,190,STOCK
+31,Eco Energy,ECOE,Energy,Low,200,STOCK
+32,CloudBase,CLDB,Technology,Medium,270,STOCK
+33,Care Plus,CARE,Healthcare,Low,230,STOCK
+34,Bank Pro,BKPR,Finance,Low,150,STOCK
+35,ShopLink,SHLK,Retail,High,200,STOCK
+36,EnergyFlow,ENFL,Energy,Medium,210,STOCK
+37,InnoTech,INTH,Technology,High,380,STOCK
+38,Health Trust,HTRU,Healthcare,Low,260,STOCK
+39,Secure Bank,SBAN,Finance,Low,160,STOCK
+40,Retail Ease,RTLE,Retail,High,190,STOCK
+41,SolarEnergy,SLEN,Energy,Low,120,STOCK
+42,TechSmart,TSMR,Technology,High,310,STOCK
+43,MediHealth,MDHL,Healthcare,Low,250,STOCK
+44,BankNet,BKNT,Finance,Low,180,STOCK
+45,Retail Zone,RTZN,Retail,High,200,STOCK
+46,Green Energy,GRNE,Energy,Low,220,STOCK
+47,AI Pioneers,AIPN,Technology,High,340,STOCK
+48,WellCare,WLCR,Healthcare,Low,270,STOCK
+49,Trust Fund,TRFD,Finance,Low,190,STOCK
+50,Retail Pro,RTL2,Retail,High,210,STOCK
+51,EnergyLink,ENLK,Energy,Low,230,STOCK
+52,FutureTech,FUTR,Technology,High,390,STOCK
+53,LifeHealth,LHCR,Healthcare,Low,280,STOCK
+54,Savings Bank,SVBN,Finance,Low,200,STOCK
+55,MarketMall,MMAL,Retail,High,230,STOCK
+56,WindPower,WDPW,Energy,Medium,130,STOCK
+57,Innovatech,INVT,Technology,High,360,STOCK
+58,CareNow,CARN,Healthcare,Low,290,STOCK
+59,BankPro,BKPR2,Finance,Low,210,STOCK
+60,Retail World,RTWL,Retail,High,220,STOCK
+61,EcoPower,ECOP,Energy,Low,240,STOCK
+62,AI Labs,AILB,Technology,High,400,STOCK
+63,Health Secure,HSEC,Healthcare,Low,300,STOCK
+64,FinanceFirst,FFIN,Finance,Low,220,STOCK
+65,MallMaster,MMST,Retail,High,240,STOCK
+66,RenewPower,RNWP,Energy,Low,250,STOCK
+67,CloudEdge,CLDE,Technology,High,370,STOCK
+68,HealthSolutions,HSLN,Healthcare,Low,310,STOCK
+69,BankWise,BKWS,Finance,Low,240,STOCK
+70,RetailCo,RTL3,Retail,High,260,STOCK
+71,EnergyPlus,ENPL,Energy,Low,140,STOCK
+72,FutureAI,FUTA,Technology,High,420,STOCK
+73,MediPrime,MDPM,Healthcare,Low,320,STOCK
+74,SafeFinance,SFFN,Finance,Low,250,STOCK
+75,RetailPoint,RTL4,Retail,High,270,STOCK
+76,PowerGen,PWGN,Energy,Low,260,STOCK
+77,TechSphere,TSPH,Technology,High,430,STOCK
+78,HealthCare+,HCRP,Healthcare,Low,330,STOCK
+79,BankDirect,BKDR,Finance,Low,260,STOCK
+80,Retail Group+,RTL5,Retail,High,280,STOCK
+81,EnergyRenew,ENRN,Energy,Low,150,STOCK
+82,AI Global,AIGL,Technology,High,440,STOCK
+83,WellMed,WLMC,Healthcare,Low,340,STOCK
+84,BankCore,BKCR,Finance,Low,270,STOCK
+85,ShopSmart,SHSM,Retail,High,290,STOCK
+86,Solar Future+,SLRF2,Energy,Medium,280,STOCK
+87,TechCore,TCHC,Technology,High,450,STOCK
+88,Care Health,CHLT,Healthcare,Low,350,STOCK
+89,SafeBank,SBK2,Finance,Low,280,STOCK
+90,RetailAdvance,RTL6,Retail,High,300,STOCK
+91,PowerFuture,PWFU,Energy,Low,160,STOCK
+92,Quantum Innovations,QNTI,Technology,High,460,STOCK
+93,Health Line,HLLN,Healthcare,Low,360,STOCK
+94,TrustFund+,TRFD2,Finance,Low,290,STOCK
+95,MallWorld+,MMWL2,Retail,High,320,STOCK
+96,EnergyCore,ENCR,Energy,Low,300,STOCK
+97,BlueEnergy,BLE,Energy,Low,275,STOCK
+98,FutureRetail,FTRL,Retail,High,185,STOCK
+99,NeuralTech,NTRL,Technology,High,315,STOCK
+100,SmartTech,SMRT,Technology,High,325,STOCK
+101,MedCarePlus,MCP,Healthcare,Low,350,STOCK

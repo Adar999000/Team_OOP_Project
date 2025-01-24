@@ -1,0 +1,102 @@
+ID,Name,Ticker,Industry,Risk Level,Price,Type
+1,US Treasury Bond,USTB,Government,Low,1000,BOND
+2,Apple Corporate Bond,AAPL,Technology,Medium,1050,BOND
+3,Exxon Mobil Green Bond,XOM,Energy,Low,990,BOND
+4,US Savings Bond,USSB,Savings,Low,1025,BOND
+5,Tesla Corporate Bond,TSLA,Technology,High,980,BOND
+6,Green Energy Development Fund,GEBD,Energy,Low,1020,BOND
+7,Healthcare Investment Bond,HLTH,Healthcare,Medium,960,BOND
+8,Retail Consumer Bond,RCBD,Retail,High,940,BOND
+9,New York City Bond,NYCB,Public Sector,Low,1080,BOND
+10,California Municipal Bond,CAMB,Public Sector,Medium,950,BOND
+11,Amazon Corporate Bond,AMZN,Technology,High,970,BOND
+12,BP Environmental Bond,BP,Energy,Low,1015,BOND
+13,US Treasury Inflation-Protected Bond,TIP,Government,Low,1045,BOND
+14,Healthcare REIT Bond,HRB,Healthcare,Medium,930,BOND
+15,Canadian Government Bond,CGB,Government,Low,1005,BOND
+16,Solar Energy Green Bond,SOLAR,Energy,Low,990,BOND
+17,Facebook Corporate Bond,FB,Technology,High,915,BOND
+18,Chicago Municipal Bond,CHMB,Public Sector,Low,1000,BOND
+19,Defense Industry Bond,DEF,Defense,Low,1090,BOND
+20,Healthcare Trust Bond,HTBD,Healthcare,Low,1025,BOND
+21,Infrastructure Development Bond,IDB,Construction,Medium,955,BOND
+22,General Electric Corporate Bond,GE,Technology,Medium,965,BOND
+23,Ford Motor Corporate Bond,F,Automotive,High,940,BOND
+24,Global Green Energy Bond,GGEB,Energy,Low,1010,BOND
+25,US Government 10-year Bond,US10,Government,Low,1000,BOND
+26,IBM Corporate Bond,IBM,Technology,Medium,975,BOND
+27,Johnson & Johnson Healthcare Bond,JNJ,Healthcare,Low,1035,BOND
+28,Target Corporate Bond,TGT,Retail,High,930,BOND
+29,Petrobras Green Energy Bond,PBR,Energy,Low,1000,BOND
+30,Florida State Municipal Bond,FLMB,Public Sector,Low,1020,BOND
+31,National Grid Green Bond,NGG,Energy,Low,990,BOND
+32,Volkswagen Corporate Bond,VW,Automotive,High,920,BOND
+33,Paris Municipal Bond,PMB,Public Sector,Low,1050,BOND
+34,International Business Machines Bond,IBM,Technology,Medium,960,BOND
+35,Rio Tinto Mining Bond,RTX,Mining,Medium,950,BOND
+36,Chevron Environmental Bond,CVX,Energy,Low,1015,BOND
+37,New Jersey Municipal Bond,NJMB,Public Sector,Low,980,BOND
+38,Lockheed Martin Defense Bond,LMT,Defense,Low,1060,BOND
+39,Walmart Corporate Bond,WMT,Retail,High,945,BOND
+40,ExxonMobil Green Bond,EXM,Energy,Low,1025,BOND
+41,Siemens Corporate Bond,SIE,Technology,Medium,970,BOND
+42,Huawei Corporate Bond,HUA,Technology,High,920,BOND
+43,London City Bond,LCB,Public Sector,Low,1010,BOND
+44,Morgan Stanley Corporate Bond,MS,Finance,Medium,975,BOND
+45,Microsoft Corporate Bond,MSFT,Technology,High,950,BOND
+46,Bayer Healthcare Bond,BAY,Healthcare,Low,990,BOND
+47,Pepsico Corporate Bond,PEP,Retail,High,965,BOND
+48,Samsung Electronics Bond,SSG,Technology,Medium,980,BOND
+49,China Development Bank Bond,CDB,Finance,Low,1030,BOND
+50,Goldman Sachs Corporate Bond,GS,Finance,Medium,960,BOND
+51,Apple Green Bond,APLB,Technology,Low,1020,BOND
+52,Caterpillar Corporate Bond,CAT,Manufacturing,Medium,930,BOND
+53,General Motors Automotive Bond,GM,Automotive,High,940,BOND
+54,US Corporate High Yield Bond,USCY,Finance,High,900,BOND
+55,UnitedHealth Group Healthcare Bond,UNH,Healthcare,Low,1040,BOND
+56,Uber Technology Bond,UBR,Technology,High,930,BOND
+57,Shell Green Energy Bond,SHL,Energy,Low,1005,BOND
+58,Ford Environmental Bond,FDB,Automotive,Medium,980,BOND
+59,Volkswagen Green Bond,VWG,Energy,Low,1015,BOND
+60,Amazon Web Services Bond,AMZB,Technology,Medium,965,BOND
+61,Florida Green Bond,FLGB,Public Sector,Low,1010,BOND
+62,IBM Environmental Bond,IBMEB,Technology,Low,980,BOND
+63,Nokia Corporate Bond,NOK,Technology,Medium,950,BOND
+64,General Electric Infrastructure Bond,GEIB,Construction,Medium,955,BOND
+65,Energy Efficiency Bond,EEB,Energy,Low,1000,BOND
+66,Allianz Corporate Bond,ALL,Finance,Medium,945,BOND
+67,Boston Municipal Bond,BMB,Public Sector,Low,1075,BOND
+68,SAP Technology Bond,SAP,Technology,Medium,965,BOND
+69,Intel Corporate Bond,INTC,Technology,High,940,BOND
+70,Procter & Gamble Consumer Goods Bond,PG,Consumer Goods,High,925,BOND
+71,Verizon Corporate Bond,VZ,Telecommunications,Medium,990,BOND
+72,Adobe Corporate Bond,ADBE,Technology,High,910,BOND
+73,BASF Chemical Industry Bond,BAS,Manufacturing,Low,980,BOND
+74,PepsiCo Green Energy Bond,PEPB,Energy,Low,1015,BOND
+75,Netherlands Government Bond,NLGB,Government,Low,1030,BOND
+76,HSBC Corporate Bond,HSBC,Finance,Medium,955,BOND
+77,Siemens Green Bond,SGB,Technology,Low,975,BOND
+78,Boeing Aerospace Bond,BA,Aerospace,High,930,BOND
+79,Chevron Clean Energy Bond,CVE,Energy,Low,1010,BOND
+80,Siemens Sustainability Bond,SSB,Technology,Medium,960,BOND
+81,Nike Corporate Bond,NKE,Retail,High,940,BOND
+82,US Municipal Bond,USMB,Public Sector,Low,990,BOND
+83,Adobe Green Bond,ADGB,Technology,Low,985,BOND
+84,T-Mobile Technology Bond,TMO,Telecommunications,High,925,BOND
+85,Kroger Corporate Bond,KRO,Retail,Medium,940,BOND
+86,European Investment Bank Bond,ECB,Finance,Low,1055,BOND
+87,Alibaba Corporate Bond,ALB,Technology,Medium,975,BOND
+88,Samsung Green Bond,SGB,Energy,Low,1005,BOND
+89,CitiBank Corporate Bond,CITI,Finance,Medium,980,BOND
+90,HSBC Green Bond,HSGB,Energy,Low,1000,BOND
+91,Apple Sustainability Bond,APLS,Technology,Low,1010,BOND
+92,Caterpillar Construction Bond,CATB,Construction,Medium,950,BOND
+93,Netherlands Green Bond,NLGB,Energy,Low,1035,BOND
+94,Google Corporate Bond,GOOG,Technology,High,920,BOND
+95,Mastercard Corporate Bond,MA,Finance,Medium,965,BOND
+96,Credit Suisse Corporate Bond,CS,Finance,Medium,975,BOND
+97,Amazon Sustainability Bond,AMZSB,Technology,Low,1000,BOND
+98,Lockheed Martin Corporate Bond,LMT,Defense,Low,1040,BOND
+99,Nokia Green Bond,NOKB,Energy,Low,1010,BOND
+100,US Corporate Bond Index,USCB,Finance,Medium,960,BOND
+101,Adidas Corporate Bond,ADS,Retail,High,925,BOND
