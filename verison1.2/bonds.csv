@@ -1,34 +1,50 @@
-Name,Ticker,Industry,Risk Level,Price,Type
-US Treasury Bond,USTB,Finance,Low,1000,BOND
-Corporate Bond ETF,AGG,Finance,Medium,950,BOND
-Municipal Bond Fund,MUB,Public Sector,Low,980,BOND
-US Savings Bond,USSB,Savings,Low,1050,BOND
-Treasury Inflation Bond,TIP,Government,Low,1100,BOND
-Green Energy Bond,GRBD,Energy,Low,1020,BOND
-Healthcare Bond Fund,HLBD,Healthcare,Medium,920,BOND
-Retail Sector Bond,RTBD,Retail,High,890,BOND
-Education Bond Fund,EDBD,Education,Low,950,BOND
-Infrastructure Bond,IFBD,Construction,Medium,960,BOND
-Technology Sector Bond,TCBD,Technology,High,870,BOND
-Defense Bond Fund,DFBD,Defense,Low,1100,BOND
-Energy Future Bond,EFBD,Energy,Medium,930,BOND
-Healthcare Plus Bond,HPBD,Healthcare,Low,970,BOND
-Retail Bond Fund,RBDF,Retail,Medium,940,BOND
-Education Trust Bond,ETBD,Education,Low,960,BOND
-Construction Bond,CNBD,Construction,Medium,980,BOND
-Technology Trust Bond,TTBD,Technology,High,910,BOND
-Security Bond Fund,SCBD,Defense,Low,1150,BOND
-Solar Energy Bond,SEBD,Energy,Medium,1020,BOND
-Healthcare Trust Bond,HTBD,Healthcare,Low,1050,BOND
-Retail Development Bond,RDBD,Retail,High,890,BOND
-Education Plus Bond,EPBD,Education,Low,1000,BOND
-Construction Trust Bond,CTBD,Construction,Medium,940,BOND
-Technology Plus Bond,TPBD,Technology,High,950,BOND
-Government Bond Fund,GVBD,Public Sector,Low,1070,BOND
-Green Future Bond,GFBD,Energy,Medium,980,BOND
-Healthcare Investment Bond,HIBD,Healthcare,Low,1010,BOND
-Retail Growth Bond,RGBD,Retail,High,870,BOND
-Education Investment Bond,EIBD,Education,Low,1020,BOND
-UrbanGrowth Bond,UGBD,Real Estate,Medium,950,BOND  
-AquaBond,AQB,Water Resources,Low,980,BOND  
-CleanAir Bond,CAB,Environment,Low,990,BOND  
+Name,Ticker,Price,Update Time
+iShares 20+ Year Treasury Bond ETF,TLT,87.22,2025-01-27 12:56:35
+iShares 7-10 Year Treasury Bond ETF,IEF,92.47,2025-01-27 12:56:35
+iShares 1-3 Year Treasury Bond ETF,SHY,82.14,2025-01-27 12:56:35
+iShares U.S. Treasury Bond ETF,GOVT,22.48,2025-01-27 12:56:35
+Vanguard Intermediate-Term Treasury Inde,VGIT,58.06,2025-01-27 12:56:35
+Vanguard Long-Term Treasury Index Fund E,VGLT,55.2,2025-01-27 12:56:35
+Schwab Short-Term U.S. Treasury ETF,SCHO,24.2,2025-01-27 12:56:35
+Schwab Intermediate-Term U.S. Treasury E,SCHR,24.31,2025-01-27 12:56:35
+Vanguard Short-Term Treasury Index Fund ,VGSH,58.31,2025-01-27 12:56:35
+iShares iBoxx $ Investment Grade Corpora,LQD,107.12,2025-01-27 12:56:35
+iShares iBoxx $ High Yield Corporate Bon,HYG,79.75,2025-01-27 12:56:35
+SPDR Bloomberg High Yield Bond ETF,JNK,96.81,2025-01-27 12:56:35
+Vanguard Intermediate-Term Corporate Bon,VCIT,80.42,2025-01-27 12:56:35
+Vanguard Short-Term Corporate Bond Index,VCSH,78.26,2025-01-27 12:56:35
+Vanguard Long-Term Corporate Bond Index ,VCLT,74.97,2025-01-27 12:56:35
+iShares Core U.S. Aggregate Bond ETF,AGG,97.01,2025-01-27 12:56:35
+Vanguard Total Bond Market Index Fund,BND,72.04,2025-01-27 12:56:35
+SPDR Bloomberg International Treasury Bo,BWX,21.5,2025-01-27 12:56:35
+iShares J.P. Morgan USD Emerging Markets,EMB,90.34,2025-01-27 12:56:35
+iShares International Treasury Bond ETF,IGOV,38.71,2025-01-27 12:56:35
+iShares Core International Aggregate Bon,IAGG,49.94,2025-01-27 12:56:35
+iShares TIPS Bond ETF,TIP,107.43,2025-01-27 12:56:35
+Vanguard Short-Term Inflation-Protected ,VTIP,48.71,2025-01-27 12:56:35
+iShares 0-5 Year TIPS Bond ETF,STIP,101.2,2025-01-27 12:56:35
+Schwab U.S. TIPS ETF,SCHP,26.0,2025-01-27 12:56:35
+iShares National Muni Bond ETF,MUB,106.29,2025-01-27 12:56:35
+SPDR Nuveen Bloomberg Municipal Bond ETF,TFI,45.5,2025-01-27 12:56:35
+iShares California Muni Bond ETF,CMF,56.8,2025-01-27 12:56:35
+iShares New York Muni Bond ETF,NYF,53.21,2025-01-27 12:56:35
+iShares MBS ETF,MBB,91.65,2025-01-27 12:56:35
+Vanguard Mortgage-Backed Securities Inde,VMBS,45.32,2025-01-27 12:56:35
+iShares GNMA Bond ETF,GNMA,42.88,2025-01-27 12:56:35
+SPDR Bloomberg Convertible Securities ET,CWB,80.54,2025-01-27 12:56:35
+iShares Convertible Bond ETF,ICVT,87.72,2025-01-27 12:56:35
+iShares Broad USD High Yield Corporate B,USHY,37.29,2025-01-27 12:56:35
+iShares 0-5 Year High Yield Corporate Bo,SHYG,43.21,2025-01-27 12:56:35
+iShares Fallen Angels USD Bond ETF,FALN,27.1,2025-01-27 12:56:35
+iShares 5-10 Year Investment Grade Corpo,IGIB,51.61,2025-01-27 12:56:35
+iShares 10+ Year Investment Grade Corpor,IGLB,49.54,2025-01-27 12:56:35
+iShares Broad USD Investment Grade Corpo,USIG,50.41,2025-01-27 12:56:35
+iShares 1-5 Year Investment Grade Corpor,IGSB,51.88,2025-01-27 12:56:35
+iShares 0-5 Year Investment Grade Corpor,SLQD,49.91,2025-01-27 12:56:35
+SPDR Portfolio Short Term Corporate Bond,SPSB,29.96,2025-01-27 12:56:35
+SPDR Portfolio Aggregate Bond ETF,SPAB,25.04,2025-01-27 12:56:35
+Fidelity Total Bond ETF,FBND,45.01,2025-01-27 12:56:35
+Infrastructure Capital Bond Income ETF,BNDS,50.68,2025-01-27 12:56:35
+Invesco Senior Loan ETF,BKLN,21.06,2025-01-27 12:56:35
+SPDR Blackstone Senior Loan ETF,SRLN,41.99,2025-01-27 12:56:35
+First Trust Senior Loan Fund,FTSL,46.27,2025-01-27 12:56:35

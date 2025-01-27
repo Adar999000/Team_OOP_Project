@@ -29,7 +29,7 @@ class View:
         print("\n====================")
         print("       Buy Menu")
         print("====================")
-        print("\n1) Buy a security")
+        print("1) Buy a security")
         print("2) Talk to a representative")
         print("3) See the data for this security type")
         print("4) Back to main menu")
@@ -364,22 +364,29 @@ class View:
             # קביעת הקובץ המתאים לפי סוג נייר הערך
             filename = "stocks.csv" if security_type.lower() == "stock" else "bonds.csv"
             
+            # Get the absolute path to the CSV file
+            current_dir = os.path.dirname(os.path.abspath(__file__))
+            file_path = os.path.join(current_dir, filename)
+            
             # קריאת הקובץ
-            df = pd.read_csv(filename)
+            df = pd.read_csv(file_path)
             
             # הצגת הנתונים בטבלה מסודרת
             if not df.empty:
                 # בחירת העמודות הרלוונטיות והצגתן
-                display_df = df[['Name', 'Ticker', 'Price']]
+                display_df = df[['Name', 'Ticker', 'Price', 'Update Time']]
                 display_df['Price'] = display_df['Price'].apply(lambda x: f"${x:,.2f}")
                 
                 print("\nAvailable Securities:")
-                print("=" * 80)
-                print(tabulate(display_df, headers='keys', tablefmt='fancy_grid', showindex=True))
+                print("=" * 80)  # קו מפריד קצר יותר
+                
+                # הוספת אינדקס המתחיל מ-1
+                display_df.index = range(1, len(display_df) + 1)
+                print(tabulate(display_df, headers='keys', tablefmt='simple', showindex=True))
                 return df
             else:
                 print("No data available.")
-                return None
+                return None2
                 
         except Exception as e:
             print(f"Error displaying security data: {str(e)}")

@@ -1,4 +1,5 @@
 # Team_OOP_Project
+
 # Portfolio Management System
 
 A comprehensive financial portfolio management system implemented in Python, allowing users to manage and track various financial instruments including stocks and bonds.
@@ -35,6 +36,11 @@ A comprehensive financial portfolio management system implemented in Python, all
 
 - Python 3.x
 - Required Python packages (recommend listing specific versions used)
+- yfinance>=0.2.31
+- pandas>=2.0.0
+- tabulate>=0.9.0
+- matplotlib>=3.7.0
+- pytz>=2023.3
 
 ## Installation
 

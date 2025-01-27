@@ -1,100 +1,51 @@
-Name,Ticker,Price,Type
-Tech Corp,TECH,150,STOCK
-Health Inc,HLTH,200,STOCK
-Bank Holdings,BANK,120,STOCK
-Energy Co,ENRG,180,STOCK
-Retail Group,RTL,130,STOCK
-Green Power,GRNP,90,STOCK
-Cloud Tech,CLDT,210,STOCK
-Pharma Plus,PHRM,250,STOCK
-BankSecure,BKSC,140,STOCK
-Urban Retail,URTL,160,STOCK
-Solar Future,SLRF,190,STOCK
-AI Innovators,AII,300,STOCK
-MediCare,MDCR,220,STOCK
-CreditSafe,CRDS,150,STOCK
-Shop Easy,SHPE,170,STOCK
-Wind Works,WIND,100,STOCK
-Quantum Tech,QNTM,400,STOCK
-Health Advance,HADV,240,STOCK
-Trust Bank,TRST,130,STOCK
-Mall World,MLWL,140,STOCK
-Power Grid,PWRG,190,STOCK
-NextGen Tech,NXTG,350,STOCK
-Wellness Co,WLNC,210,STOCK
-Safe Invest,SFIN,160,STOCK
-Fashion Hub,FSHN,180,STOCK
-BioRenew,BRNV,110,STOCK
-Smart Systems,SMRT,330,STOCK
-LifeLine,LFLN,250,STOCK
-CapitalOne,CPTL,170,STOCK
-Retail First,RTL1,190,STOCK
-Eco Energy,ECOE,200,STOCK
-CloudBase,CLDB,270,STOCK
-Care Plus,CARE,230,STOCK
-Bank Pro,BKPR,150,STOCK
-ShopLink,SHLK,200,STOCK
-EnergyFlow,ENFL,210,STOCK
-InnoTech,INTH,380,STOCK
-Health Trust,HTRU,260,STOCK
-Secure Bank,SBAN,160,STOCK
-Retail Ease,RTLE,190,STOCK
-SolarEnergy,SLEN,120,STOCK
-TechSmart,TSMR,310,STOCK
-MediHealth,MDHL,250,STOCK
-BankNet,BKNT,180,STOCK
-Retail Zone,RTZN,200,STOCK
-Green Energy,GRNE,220,STOCK
-AI Pioneers,AIPN,340,STOCK
-WellCare,WLCR,270,STOCK
-Trust Fund,TRFD,190,STOCK
-Retail Pro,RTL2,210,STOCK
-EnergyLink,ENLK,230,STOCK
-FutureTech,FUTR,390,STOCK
-LifeHealth,LHCR,280,STOCK
-Savings Bank,SVBN,200,STOCK
-MarketMall,MMAL,230,STOCK
-WindPower,WDPW,130,STOCK
-Innovatech,INVT,360,STOCK
-CareNow,CARN,290,STOCK
-BankPro,BKPR2,210,STOCK
-Retail World,RTWL,220,STOCK
-EcoPower,ECOP,240,STOCK
-AI Labs,AILB,400,STOCK
-Health Secure,HSEC,300,STOCK
-FinanceFirst,FFIN,220,STOCK
-MallMaster,MMST,240,STOCK
-RenewPower,RNWP,250,STOCK
-CloudEdge,CLDE,370,STOCK
-HealthSolutions,HSLN,310,STOCK
-BankWise,BKWS,240,STOCK
-RetailCo,RTL3,260,STOCK
-EnergyPlus,ENPL,140,STOCK
-FutureAI,FUTA,420,STOCK
-MediPrime,MDPM,320,STOCK
-SafeFinance,SFFN,250,STOCK
-RetailPoint,RTL4,270,STOCK
-PowerGen,PWGN,260,STOCK
-TechSphere,TSPH,430,STOCK
-HealthCare+,HCRP,330,STOCK
-BankDirect,BKDR,260,STOCK
-Retail Group+,RTL5,280,STOCK
-EnergyRenew,ENRN,150,STOCK
-AI Global,AIGL,440,STOCK
-WellMed,WLMC,340,STOCK
-BankCore,BKCR,270,STOCK
-ShopSmart,SHSM,290,STOCK
-Solar Future+,SLRF2,280,STOCK
-TechCore,TCHC,450,STOCK
-Care Health,CHLT,350,STOCK
-SafeBank,SBK2,280,STOCK
-RetailAdvance,RTL6,300,STOCK
-PowerFuture,PWFU,160,STOCK
-Quantum Innovations,QNTI,460,STOCK
-Health Line,HLLN,360,STOCK
-TrustFund+,TRFD2,290,STOCK
-MallWorld+,MMWL2,320,STOCK
-EnergyCore,ENCR,300,STOCK
-BlueEnergy,BLE,275,STOCK
-FutureRetail,FTRL,185,STOCK
-NeuralTech,NTRL,315,STOCK
+Name,Ticker,Price,Update Time
+Apple Inc.,AAPL,222.78,2025-01-27 12:56:19
+Microsoft Corporation,MSFT,444.06,2025-01-27 12:56:19
+Alphabet Inc.,GOOGL,200.21,2025-01-27 12:56:19
+"Amazon.com, Inc.",AMZN,234.85,2025-01-27 12:56:19
+"Meta Platforms, Inc.",META,647.49,2025-01-27 12:56:19
+NVIDIA Corporation,NVDA,142.62,2025-01-27 12:56:19
+"Tesla, Inc.",TSLA,406.58,2025-01-27 12:56:19
+Broadcom Inc.,AVGO,244.7,2025-01-27 12:56:19
+Oracle Corporation,ORCL,183.6,2025-01-27 12:56:19
+"Cisco Systems, Inc.",CSCO,62.23,2025-01-27 12:56:19
+JPMorgan Chase & Co.,JPM,264.84,2025-01-27 12:56:19
+Bank of America Corporation,BAC,46.52,2025-01-27 12:56:19
+Wells Fargo & Company,WFC,77.32,2025-01-27 12:56:19
+"The Goldman Sachs Group, Inc.",GS,636.9,2025-01-27 12:56:19
+Morgan Stanley,MS,137.82,2025-01-27 12:56:19
+"BlackRock, Inc.",BLK,1020.45,2025-01-27 12:56:19
+Citigroup Inc.,C,81.48,2025-01-27 12:56:19
+S&P Global Inc.,SPGI,513.75,2025-01-27 12:56:19
+American Express Company,AXP,321.34,2025-01-27 12:56:19
+Visa Inc.,V,330.2,2025-01-27 12:56:19
+Johnson & Johnson,JNJ,146.82,2025-01-27 12:56:19
+UnitedHealth Group Incorporated,UNH,532.51,2025-01-27 12:56:19
+Pfizer Inc.,PFE,26.09,2025-01-27 12:56:19
+"Merck & Co., Inc.",MRK,95.55,2025-01-27 12:56:19
+AbbVie Inc.,ABBV,170.3,2025-01-27 12:56:19
+Eli Lilly and Company,LLY,785.41,2025-01-27 12:56:19
+Thermo Fisher Scientific Inc.,TMO,574.82,2025-01-27 12:56:19
+Abbott Laboratories,ABT,125.03,2025-01-27 12:56:19
+Danaher Corporation,DHR,245.8,2025-01-27 12:56:19
+Bristol-Myers Squibb Company,BMY,59.67,2025-01-27 12:56:19
+The Procter & Gamble Company,PG,164.12,2025-01-27 12:56:19
+The Coca-Cola Company,KO,61.92,2025-01-27 12:56:19
+"PepsiCo, Inc.",PEP,149.12,2025-01-27 12:56:19
+Walmart Inc.,WMT,94.76,2025-01-27 12:56:19
+"The Home Depot, Inc.",HD,414.5,2025-01-27 12:56:19
+McDonald's Corporation,MCD,285.46,2025-01-27 12:56:19
+"NIKE, Inc.",NKE,73.57,2025-01-27 12:56:19
+The Walt Disney Company,DIS,112.16,2025-01-27 12:56:19
+Costco Wholesale Corporation,COST,939.68,2025-01-27 12:56:19
+Starbucks Corporation,SBUX,98.81,2025-01-27 12:56:19
+Exxon Mobil Corporation,XOM,108.66,2025-01-27 12:56:19
+Chevron Corporation,CVX,155.65,2025-01-27 12:56:19
+Linde plc,LIN,439.25,2025-01-27 12:56:19
+RTX Corporation,RTX,125.31,2025-01-27 12:56:19
+Honeywell International Inc.,HON,221.51,2025-01-27 12:56:19
+Caterpillar Inc.,CAT,407.63,2025-01-27 12:56:19
+"United Parcel Service, Inc.",UPS,133.03,2025-01-27 12:56:19
+The Boeing Company,BA,176.06,2025-01-27 12:56:19
+GE Aerospace,GE,196.75,2025-01-27 12:56:19
+3M Company,MMM,149.43,2025-01-27 12:56:19
