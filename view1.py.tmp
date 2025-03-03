@@ -1,0 +1,2 @@
+    def choose_security_type(self):
+        return self.get_input_with_validation("Choose security type (Stock/Bond): ", ["Stock", "Bond"], case_sensitive=False)
