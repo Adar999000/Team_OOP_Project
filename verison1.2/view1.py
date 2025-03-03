@@ -39,7 +39,6 @@ class View:
         print(Fore.GREEN + "====================")
         print(Fore.BLUE + "1) Buy a security")
         print(Fore.BLUE + "2) Talk to a representative")
-        print(Fore.BLUE + "3) See the data for this security type")
         print(Fore.BLUE + "4) Back to main menu")
         print(Fore.GREEN + "====================")
         return self.get_input_with_validation("Choose an option: ", ["1", "2", "3", "4"])
@@ -90,8 +89,7 @@ class View:
         print(Fore.GREEN + "====================")
         print(Fore.BLUE + "1) Buy a security")
         print(Fore.BLUE + "2) Talk to a representative")
-        print(Fore.BLUE + "3) See the data for this security type")
-        print(Fore.BLUE + "4) Back to main menu")
+        print(Fore.BLUE + "3) Back to main menu")
         print(Fore.GREEN + "====================")
         return self.get_input_with_validation("Choose an option: ", ["1", "2", "3", "4"])
 
@@ -481,4 +479,5 @@ class View:
 
     def show_invalid_input(self):
         print(Fore.BLUE + "Invalid input. Security ID must be a number.")
+
 
