@@ -3,6 +3,10 @@ import pandas as pd
 from datetime import datetime
 import pytz
 import os
+from colorama import Fore, Style
+
+# Define the directory path
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 def fetch_stocks():
     # List of 50 major company stock symbols
@@ -16,8 +20,9 @@ def fetch_stocks():
     
     try:
         # Read existing CSV if it exists
-        if os.path.exists('stocks.csv'):
-            existing_df = pd.read_csv('stocks.csv')
+        stocks_file = os.path.join(CURRENT_DIR, 'stocks.csv')
+        if os.path.exists(stocks_file):
+            existing_df = pd.read_csv(stocks_file)
             existing_prices = dict(zip(existing_df['Ticker'], existing_df['Price']))
             existing_times = dict(zip(existing_df['Ticker'], existing_df['Update Time']))
         else:
@@ -71,8 +76,9 @@ def fetch_bonds():
     
     try:
         # Read existing CSV if it exists
-        if os.path.exists('bonds.csv'):
-            existing_df = pd.read_csv('bonds.csv')
+        bonds_file = os.path.join(CURRENT_DIR, 'bonds.csv')
+        if os.path.exists(bonds_file):
+            existing_df = pd.read_csv(bonds_file)
             existing_prices = dict(zip(existing_df['Ticker'], existing_df['Price']))
             existing_times = dict(zip(existing_df['Ticker'], existing_df['Update Time']))
         else:
@@ -116,17 +122,20 @@ def fetch_bonds():
 
 # Fetch and save data
 try:
+    security_type = "stock"
     # Fetch data
-    stocks = fetch_stocks()
-    bonds = fetch_bonds()
-    
-    if not stocks.empty:
-        stocks.to_csv('stocks.csv', index=False)
-        print(f"Successfully updated {len(stocks)} stocks")
-    
-    if not bonds.empty:
-        bonds.to_csv('bonds.csv', index=False)
-        print(f"Successfully updated {len(bonds)} bonds")
+    if security_type.lower() == "stock":
+        stocks = fetch_stocks()
+        if not stocks.empty:
+            stocks_file = os.path.join(CURRENT_DIR, 'stocks.csv')
+            stocks.to_csv(stocks_file, index=False)
+            
+    else:
+        bonds = fetch_bonds()
+        if not bonds.empty:
+            bonds_file = os.path.join(CURRENT_DIR, 'bonds.csv')
+            bonds.to_csv(bonds_file, index=False)
+            
 
 except Exception as e:
     print(f"Error updating market data: {str(e)}")

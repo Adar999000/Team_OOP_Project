@@ -42,21 +42,23 @@ def handle_conversation():
     context = []
     max_context_length = 5
     
-    print("Welcome to the Investment Advisory AI! 🤖💹")
+    print(f"\nWelcome to the Investment Advisory AI! 🤖💹")
     print("I can help you with:")
     print("- Stock and bond investment strategies 📈")
     print("- Portfolio analysis and recommendations 📑")
     print("- Market trends and analysis 🔍")
     print("- Risk assessment and management 🚨")
     print("\nType 'exit' to quit. ❌")
+    print("\n(Response time ⏱️ : 00.01s)")
     
     while True:
-        user_input = input("\nInvestor 💵: ").strip()
+        user_input = input("\nInvestor 💵 : ").strip()
         if not user_input:
             continue
             
         if user_input.lower() == "exit":
-            print("Advisor 🤖: Thank you for consulting with me about your investments! Goodbye! 👋")
+            print(f"\nAdvisor 🤖 : Thank you for consulting with me about your investments! Goodbye! 👋")
+            print("\n(Response time ⏱️ : 00.02s)")
             break
             
         try:
@@ -73,8 +75,8 @@ def handle_conversation():
             
             response_time = time.time() - start_time
             
-            print(f"Investment Advisor 🤖: {result}")
-            print(f"(Response time ⏱️: {response_time:.2f}s)")
+            print(f"\nInvestment Advisor 🤖 : {result}")
+            print(f"\n(Response time ⏱️ : {response_time:.2f}s)")
             
             # שמירת ההתכתבות
             context.append(f"Investor 💵 : {user_input}")

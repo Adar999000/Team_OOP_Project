@@ -1,51 +1,51 @@
 Name,Ticker,Price,Industry,Update Time
-Apple Inc.,AAPL,239.49,Consumer Electronics,2025-03-03 21:29:40
-Microsoft Corporation,MSFT,432.61,Software - Infrastructure,2025-03-03 21:29:40
-Alphabet Inc.,GOOGL,182.06,Internet Content & Information,2025-03-03 21:29:40
-"Amazon.com, Inc.",AMZN,198.62,Internet Retail,2025-03-03 21:29:40
-"Meta Platforms, Inc.",META,602.66,Internet Content & Information,2025-03-03 21:29:40
-"Tesla, Inc.",TSLA,282.81,Auto Manufacturers,2025-03-03 21:29:40
-NVIDIA Corporation,NVDA,123.2,Semiconductors,2025-03-03 21:29:40
-JPMorgan Chase & Co.,JPM,241.61,Banks - Diversified,2025-03-03 21:29:40
-Visa Inc.,V,376.28,Credit Services,2025-03-03 21:29:40
-Johnson & Johnson,JNJ,165.07,Drug Manufacturers - General,2025-03-03 21:29:40
-Walmart Inc.,WMT,91.13,Discount Stores,2025-03-03 21:29:40
-The Procter & Gamble Company,PG,161.61,Household & Personal Products,2025-03-03 21:29:40
-Mastercard Incorporated,MA,602.49,Credit Services,2025-03-03 21:29:40
-UnitedHealth Group Incorporated,UNH,441.54,Healthcare Plans,2025-03-03 21:29:40
-"The Home Depot, Inc.",HD,362.56,Home Improvement Retail,2025-03-03 21:29:40
-Bank of America Corporation,BAC,45.61,Banks - Diversified,2025-03-03 21:28:57
-The Walt Disney Company,DIS,104.31,Entertainment,2025-03-03 21:29:40
-Adobe Inc.,ADBE,441.87,Software - Application,2025-03-03 21:29:40
-"Salesforce, Inc.",CRM,275.57,Software - Application,2025-03-03 21:29:40
-"Netflix, Inc.",NFLX,1082.02,Entertainment,2025-03-03 21:28:57
-"Cisco Systems, Inc.",CSCO,66.45,Communication Equipment,2025-03-03 21:28:57
-Verizon Communications Inc.,VZ,43.3,Telecom Services,2025-03-03 21:28:57
-Intel Corporation,INTC,23.84,Semiconductors,2025-03-03 21:29:40
-Pfizer Inc.,PFE,24.51,Drug Manufacturers - General,2025-03-03 21:28:57
-The Coca-Cola Company,KO,67.79,Beverages - Non-Alcoholic,2025-03-03 21:29:40
-"PepsiCo, Inc.",PEP,159.13,Beverages - Non-Alcoholic,2025-03-03 21:29:40
-Thermo Fisher Scientific Inc.,TMO,552.68,Diagnostics & Research,2025-03-03 21:29:40
-Abbott Laboratories,ABT,148.63,Medical Devices,2025-03-03 21:29:40
-"Merck & Co., Inc.",MRK,97.67,Drug Manufacturers - General,2025-03-03 21:29:40
-Oracle Corporation,ORCL,162.18,Software - Infrastructure,2025-03-03 21:29:40
-Broadcom Inc.,AVGO,181.9,Semiconductors,2025-03-03 21:29:40
-Accenture plc,ACN,317.91,Information Technology Services,2025-03-03 21:29:40
-"NIKE, Inc.",NKE,76.71,Footwear & Accessories,2025-03-03 21:29:40
-Danaher Corporation,DHR,190.02,Diagnostics & Research,2025-03-03 21:29:40
-AT&T Inc.,T,25.0,Telecom Services,2025-03-03 21:28:57
-Wells Fargo & Company,WFC,72.78,Banks - Diversified,2025-03-03 21:29:40
-Texas Instruments Incorporated,TXN,179.12,Semiconductors,2025-03-03 21:29:40
-QUALCOMM Incorporated,QCOM,146.27,Semiconductors,2025-03-03 21:29:40
-"United Parcel Service, Inc.",UPS,117.19,Integrated Freight & Logistics,2025-03-03 21:28:57
-"NextEra Energy, Inc.",NEE,75.05,Utilities - Regulated Electric,2025-03-03 21:29:40
-Philip Morris International Inc.,PM,166.78,Tobacco,2025-03-03 21:29:40
-Morgan Stanley,MS,140.92,Capital Markets,2025-03-03 21:29:40
-RTX Corporation,RTX,124.26,Aerospace & Defense,2025-03-03 21:29:40
-Bristol-Myers Squibb Company,BMY,55.57,Drug Manufacturers - General,2025-03-03 21:28:57
-Amgen Inc.,AMGN,301.11,Drug Manufacturers - General,2025-03-03 21:29:40
-Linde plc,LIN,510.37,Specialty Chemicals,2025-03-03 21:29:40
-Costco Wholesale Corporation,COST,1114.24,Discount Stores,2025-03-03 21:29:40
-Medtronic plc,MDT,100.82,Medical Devices,2025-03-03 21:29:40
-Honeywell International Inc.,HON,198.04,Conglomerates,2025-03-03 21:29:40
-International Business Machines Corporation,IBM,262.11,Information Technology Services,2025-03-03 21:29:40
+Costco Wholesale Corporation,COST,$1159.09,Discount Stores,2025-03-05 19:12:21
+"Netflix, Inc.",NFLX,$992.40,Entertainment,2025-03-05 19:12:21
+"Meta Platforms, Inc.",META,$673.92,Internet Content & Information,2025-03-05 19:12:21
+Thermo Fisher Scientific Inc.,TMO,$554.75,Diagnostics & Research,2025-03-05 19:12:21
+Mastercard Incorporated,MA,$511.50,Credit Services,2025-03-05 19:12:21
+Linde plc,LIN,$483.91,Specialty Chemicals,2025-03-05 19:12:21
+Adobe Inc.,ADBE,$425.22,Software - Application,2025-03-05 19:12:21
+"The Home Depot, Inc.",HD,$421.46,Home Improvement Retail,2025-03-05 19:12:21
+UnitedHealth Group Incorporated,UNH,$405.33,Healthcare Plans,2025-03-05 19:12:21
+Accenture plc,ACN,$351.54,Information Technology Services,2025-03-05 19:12:21
+"Salesforce, Inc.",CRM,$338.72,Software - Application,2025-03-05 19:12:21
+Microsoft Corporation,MSFT,$333.60,Software - Infrastructure,2025-03-05 19:12:21
+Visa Inc.,V,$297.91,Credit Services,2025-03-05 19:12:21
+"Tesla, Inc.",TSLA,$285.02,Auto Manufacturers,2025-03-05 19:12:21
+Amgen Inc.,AMGN,$267.61,Drug Manufacturers - General,2025-03-05 19:12:21
+Apple Inc.,AAPL,$261.18,Consumer Electronics,2025-03-05 19:12:21
+International Business Machines Corporation,IBM,$253.70,Information Technology Services,2025-03-05 19:12:21
+"Amazon.com, Inc.",AMZN,$237.49,Internet Retail,2025-03-05 19:12:21
+JPMorgan Chase & Co.,JPM,$224.55,Banks - Diversified,2025-03-05 19:12:21
+Broadcom Inc.,AVGO,$201.97,Semiconductors,2025-03-05 19:12:21
+Danaher Corporation,DHR,$195.51,Diagnostics & Research,2025-03-05 19:12:21
+Honeywell International Inc.,HON,$182.08,Conglomerates,2025-03-05 19:12:21
+Texas Instruments Incorporated,TXN,$175.49,Semiconductors,2025-03-05 19:12:21
+Johnson & Johnson,JNJ,$169.59,Drug Manufacturers - General,2025-03-05 19:12:21
+Alphabet Inc.,GOOGL,$166.85,Internet Content & Information,2025-03-05 19:12:21
+Oracle Corporation,ORCL,$162.46,Software - Infrastructure,2025-03-05 19:12:21
+Philip Morris International Inc.,PM,$151.16,Tobacco,2025-03-05 19:12:21
+"PepsiCo, Inc.",PEP,$149.78,Beverages - Non-Alcoholic,2025-03-05 19:12:21
+The Procter & Gamble Company,PG,$147.73,Household & Personal Products,2025-03-05 19:12:21
+QUALCOMM Incorporated,QCOM,$144.59,Semiconductors,2025-03-05 19:12:21
+Abbott Laboratories,ABT,$140.40,Medical Devices,2025-03-05 19:12:21
+NVIDIA Corporation,NVDA,$125.77,Semiconductors,2025-03-05 19:12:21
+RTX Corporation,RTX,$119.98,Aerospace & Defense,2025-03-05 19:12:21
+Morgan Stanley,MS,$108.71,Capital Markets,2025-03-05 19:12:21
+"United Parcel Service, Inc.",UPS,$103.22,Integrated Freight & Logistics,2025-03-05 19:12:21
+The Walt Disney Company,DIS,$101.72,Entertainment,2025-03-05 19:12:21
+Walmart Inc.,WMT,$99.80,Discount Stores,2025-03-05 19:12:21
+Medtronic plc,MDT,$84.64,Medical Devices,2025-03-05 19:12:21
+The Coca-Cola Company,KO,$80.64,Beverages - Non-Alcoholic,2025-03-05 19:12:21
+"Merck & Co., Inc.",MRK,$80.00,Drug Manufacturers - General,2025-03-05 19:12:21
+"NIKE, Inc.",NKE,$70.32,Footwear & Accessories,2025-03-05 19:12:21
+"NextEra Energy, Inc.",NEE,$68.94,Utilities - Regulated Electric,2025-03-05 19:12:21
+Wells Fargo & Company,WFC,$67.44,Banks - Diversified,2025-03-05 19:12:21
+Bristol-Myers Squibb Company,BMY,$63.19,Drug Manufacturers - General,2025-03-05 19:12:21
+"Cisco Systems, Inc.",CSCO,$57.83,Communication Equipment,2025-03-05 19:12:21
+Verizon Communications Inc.,VZ,$46.91,Telecom Services,2025-03-05 19:12:21
+Bank of America Corporation,BAC,$44.00,Banks - Diversified,2025-03-05 19:12:21
+Pfizer Inc.,PFE,$25.73,Drug Manufacturers - General,2025-03-05 19:12:21
+AT&T Inc.,T,$22.64,Telecom Services,2025-03-05 19:12:21
+Intel Corporation,INTC,$21.68,Semiconductors,2025-03-05 19:12:21

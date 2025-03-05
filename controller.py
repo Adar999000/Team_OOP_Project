@@ -60,9 +60,8 @@ class Controller:
                 from csv_updater import fetch_stocks
                 stocks_df = fetch_stocks()
                 if not stocks_df.empty:
-                    stocks_df.to_csv('stocks.csv', index=False)
                     self.view.update_prices(security_type)
-                    self.view.display_security_data(security_type)
+                    stocks_df = self.view.display_security_data(security_type)
                     while True:
                         try:
                             choice = input("\nEnter the number of the stock you want to buy (1-50), or 0 to cancel: ")
@@ -85,27 +84,35 @@ class Controller:
                         except ValueError:
                             print("Please enter a valid number.")
                     
-                    # Get the selected stock
+                    # Get the selected stock from the displayed DataFrame
                     selected_stock = stocks_df.iloc[choice - 1]
+                    
+                    # Check if adding this security would exceed risk level
+                    if not self.model.can_add_security({
+                        'type': "STOCK",
+                        'share': quantity,
+                        'industry': 'Technology'
+                    }):
+                        print("\nWarning: Cannot add this security - it would exceed your defined risk level.")
+                        return
                     
                     # Add to portfolio
                     self.model.add_security(
                         stock_name=selected_stock['Name'],
-                        ticker=selected_stock['Symbol'],
+                        ticker=selected_stock['Ticker'],
                         price=float(selected_stock['Price'].replace('$', '')),
                         share=quantity,
-                        security_type=security_type
+                        security_type="STOCK"
                     )
-                    print(f"\nSuccessfully bought {quantity} shares of {selected_stock['Name']}")
+                    print(f"\nSuccessfully bought {quantity} stocks of {selected_stock['Name']}")
             
             else:
                 # טיפול באגרות חוב
                 from csv_updater import fetch_bonds
                 bonds_df = fetch_bonds()
                 if not bonds_df.empty:
-                    bonds_df.to_csv('bonds.csv', index=False)
                     self.view.update_prices(security_type)
-                    self.view.display_security_data(security_type)
+                    bonds_df = self.view.display_security_data(security_type)
                     while True:
                         try:
                             choice = input("\nEnter the number of the bond you want to buy (1-50), or 0 to cancel: ")
@@ -128,18 +135,27 @@ class Controller:
                         except ValueError:
                             print("Please enter a valid number.")
                     
-                    # Get the selected bond
+                    # Get the selected bond from the displayed DataFrame
                     selected_bond = bonds_df.iloc[choice - 1]
+                    
+                    # Check if adding this security would exceed risk level
+                    if not self.model.can_add_security({
+                        'type': "BOND",
+                        'share': quantity,
+                        'industry': 'Finance'
+                    }):
+                        print("\nWarning: Cannot add this security - it would exceed your defined risk level.")
+                        return
                     
                     # Add to portfolio
                     self.model.add_security(
                         stock_name=selected_bond['Name'],
-                        ticker=selected_bond['Symbol'],
+                        ticker=selected_bond['Ticker'],
                         price=float(selected_bond['Price'].replace('$', '')),
                         share=quantity,
-                        security_type=security_type
+                        security_type="BOND"
                     )
-                    print(f"\nSuccessfully bought {quantity} of {selected_bond['Name']}")
+                    print(f"\nSuccessfully bought {quantity} bonds of {selected_bond['Name']}")
         
         except Exception as e:
             print(f"Error: {str(e)}")

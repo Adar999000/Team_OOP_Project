@@ -2,13 +2,16 @@ import os
 import sqlite3
 import pandas as pd
 from portfolio import Portfolio
+from risk_calculator import RiskCalculator
 
 class Model:
     def __init__(self):
         self.risk_level = None
         self.securities = []
         self.next_id = 1
-        self.db_file = "portfolio.db"
+        # Use absolute path for database file
+        self.db_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "portfolio.db")
+        self.risk_calculator = RiskCalculator()
         self._init_db()
         self._load_settings()
         self.load_portfolio()
@@ -63,6 +66,15 @@ class Model:
 
     def add_security(self, stock_name, ticker, price, share, security_type):
         """הוספת נייר ערך לפורטפוליו"""
+        if not self.can_add_security({
+            'stock_name': stock_name,
+            'ticker': ticker,
+            'price': price,
+            'share': share,
+            'type': security_type
+        }):
+            raise Exception("Cannot add security due to risk level")
+        
         conn = sqlite3.connect(self.db_file)
         cursor = conn.cursor()
         
@@ -207,3 +219,24 @@ class Model:
                 self.risk_level = result[0]
         finally:
             conn.close()
+
+    def can_add_security(self, security_data: dict) -> bool:
+        """בדיקה האם ניתן להוסיף נייר ערך חדש בהתאם לרמת הסיכון"""
+        if not self.risk_level:
+            return True
+            
+        # חישוב הסיכון של נייר הערך החדש
+        security_risk = self.risk_calculator.calculate_security_risk({
+            'type': security_data['type'],
+            'share': security_data['share'],
+            'industry': 'Technology' if security_data['type'] == 'STOCK' else 'Finance',
+            'volatility': 'HIGH' if self.risk_level == 'high' else 'LOW'
+        })
+        
+        # בדיקה אם הסיכון מתאים לרמת הסיכון המוגדרת
+        if self.risk_level == "low" and security_risk > 0.5:
+            return False
+        elif self.risk_level == "medium" and security_risk > 1.0:
+            return False
+            
+        return True
