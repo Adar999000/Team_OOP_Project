@@ -45,7 +45,7 @@ class Controller:
                 self.sell_security() ## תהליך המכירה - הפונקציה בהמשך
 
             elif choice == "4":
-                self.show_portfolio()  ## ניהול התצוגה של תיק ההקשעות  - 2 הפונקציות בהמשך 
+                self.show_portfolio()  ## ניהול התצוגה של תיק ההקשעות  - הפונקציה בהמשך 
 
             elif choice == "5":
                 self.consult_representative()  ##  ייעוץ עם עוזר חכם - הפונקציה בהמשך
