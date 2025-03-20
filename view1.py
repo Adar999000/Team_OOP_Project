@@ -10,7 +10,7 @@ from tabulate import tabulate
 
 #3 ספריות ליצירת גרפים והצגתם
 import matplotlib
-matplotlib.use('Agg')  # שימוש ב-Agg backend
+matplotlib.use('Agg')  
 import matplotlib.pyplot as plt
 from matplotlib.patches import Patch
 
